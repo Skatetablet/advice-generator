@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+  background-color: hsl(217, 19%, 24%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  width: 500px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 2%;
+  box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+  -webkit-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+  -moz-box-shadow: -1px 10px 27px -4px rgba(0,0,0,0.76);
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  ;
+}
+
+.id {
+  font-size: 18px;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice {
+  font-size: x-large;
+}
+
+#divider {
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  left: 44%;
+  top:88%;
+  background-color: hsl(150, 100%, 66%);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+
+#btnI{
+  width: 45%;
+}
+
+.btn:hover {
+  border: none;
+  box-shadow: 1px 1px 35px 1px rgba(82,255,168,0.76);
+-webkit-box-shadow: 1px 1px 35px 1px rgba(82,255,168,0.76);
+-moz-box-shadow: 1px 1px 35px 1px rgba(82,255,168,0.76);
+}
+
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 300px;
+    height: 280px;
+  }
+
+  .id {
+    font-size: 15px;
+  }
+  
+  .advice {
+    font-size: large;
+  }
+
+  .btn {
+    position: absolute;
+    left: 40%;
+  }
+
+  #divider {
+    width: 100%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .container {
+    width: 400px;
+    height: 265px;
+  }
+
+  .id {
+    font-size: 18px;
+  }
+  
+  .advice {
+    font-size: large;
+  }
+
+  .btn {
+    position: absolute;
+    left: 42%;
+  }
+
+  #divider {
+    width: 100%;
+  }
+}
